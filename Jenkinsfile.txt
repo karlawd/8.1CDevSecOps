@@ -9,7 +9,6 @@ git branch: 'main', url: ' https://github.com/karlawd/8.1CDevSecOps.git'
 stage('Install Dependencies') {
 steps {
 sh 'npm install'
-sh 'npm build'
 }
 }
 stage('Run Tests') {
